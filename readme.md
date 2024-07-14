@@ -9,7 +9,7 @@ Follow each command carefully to set up, create, modify, deploy, and interact wi
 
 4. Show project configuration: `archway config show`
 
-5. Configure project: `archway config set KEY VALUE`
+5. Configure project: `archway config set [KEY] [VALUE]`
 
 6. To compile your contracts execute: `archway contracts build`
 
