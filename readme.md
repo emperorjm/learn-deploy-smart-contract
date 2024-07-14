@@ -1,5 +1,4 @@
-This file lists all the commands you'll need to execute during our hands-on workshop for developing smart contracts on the Archway platform.
-Follow each command carefully to set up, create, modify, deploy, and interact with your smart contract.
+This file lists all the commands you'll need to execute during our hands on workshop for developing smart contracts on Archway.
 
 1. Create new account: `archway accounts new mywallet`
 
