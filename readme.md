@@ -11,14 +11,15 @@ This file lists all the commands you'll need to execute during our hands on work
    - Choose a starter template: `Increment`
    - Which version do you want to generate? `full`
 
-5. To compile your contract execute: `archway contracts build`
+5. Change to your project folder: `cd incrementproject`
+6. To compile your contract execute: `archway contracts build`
 
-6. Execute the following to store your contract on chain: `archway contracts store increment --from mywallet`
+7. Execute the following to store your contract on chain: `archway contracts store increment --from mywallet`
 
-7. To create an instance of the contract execute: `archway contracts instantiate increment --args '{"count":0}'`
+8. To create an instance of the contract execute: `archway contracts instantiate increment --args '{"count":0}'`
 
-8. Check to see what is the initial count: `archway contracts query smart increment --args '{"get_count": {}}'`
+9. Check to see what is the initial count: `archway contracts query smart increment --args '{"get_count": {}}'`
 
-9. To increment the count by one, execute: `archway contracts execute increment --args '{"increment": {}}'`
+10. To increment the count by one, execute: `archway contracts execute increment --args '{"increment": {}}'`
 
-10. Query the count value to see if it was updated: `archway contracts query smart increment --args '{"get_count": {}}'`
+11. Query the count value to see if it was updated: `archway contracts query smart increment --args '{"get_count": {}}'`
